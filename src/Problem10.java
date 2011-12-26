@@ -1,7 +1,7 @@
 public class Problem10 {
 	public static void main(String[] args) {
-		long sum = 0;
-		for (long i = 2; i < 2000000; i++)
+		long sum = 2;
+		for (long i = 3; i < 2000000; i+=2)
 			if (isPrime(i))
 				sum += i;
 
