@@ -15,7 +15,7 @@ public class Problem3 {
 	}
 	
 	public static boolean isPrime(long num) {
-		for (long i = 3; i < num; i+=2)
+		for (long i = 3; i < Math.sqrt(num); i+=2)
 			if (num % i == 0)
 				return false;
 			
