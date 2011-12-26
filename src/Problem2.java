@@ -7,13 +7,11 @@ public class Problem2 {
 		int sum = 2;
 		
 		while ((fib = beforeBefore + before) <= 4000000) {
-			
 			beforeBefore = before;
 			before = fib;
 			
-			if (fib % 2 == 0) {
+			if (fib % 2 == 0)
 				sum += fib;
-			}
 		}
 		
 		System.out.println(sum);
